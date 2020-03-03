@@ -1,0 +1,424 @@
+<html>
+<head>
+<title>TestNG:  TestNG tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNG tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>69/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Feb 29 22:32:16 EST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (112 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser1()'><b>testForAddUser1</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser10()'><b>testForAddUser10</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser11()'><b>testForAddUser11</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser12()'><b>testForAddUser12</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser2()'><b>testForAddUser2</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser3()'><b>testForAddUser3</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser4()'><b>testForAddUser4</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser5()'><b>testForAddUser5</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser6()'><b>testForAddUser6</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser7()'><b>testForAddUser7</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser8()'><b>testForAddUser8</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testForAddUser9()'><b>testForAddUser9</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetAvatar1()'><b>testGetAvatar1</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetAvatar2()'><b>testGetAvatar2</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetAvatar3()'><b>testGetAvatar3</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetAvatar4()'><b>testGetAvatar4</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetAvatar5()'><b>testGetAvatar5</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetAvatar6()'><b>testGetAvatar6</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetEmail1()'><b>testGetEmail1</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetEmail2()'><b>testGetEmail2</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetEmail3()'><b>testGetEmail3</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetEmail4()'><b>testGetEmail4</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetEmail5()'><b>testGetEmail5</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetEmail6()'><b>testGetEmail6</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetEmail7()'><b>testGetEmail7</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetEmail8()'><b>testGetEmail8</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetEmail9()'><b>testGetEmail9</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetPassword1()'><b>testGetPassword1</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetPassword2()'><b>testGetPassword2</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetPassword3()'><b>testGetPassword3</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetPassword4()'><b>testGetPassword4</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetPassword5()'><b>testGetPassword5</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetUserID1()'><b>testGetUserID1</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetUserID2()'><b>testGetUserID2</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testGetUserID3()'><b>testGetUserID3</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testIsAdmin1()'><b>testIsAdmin1</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testIsAdmin2()'><b>testIsAdmin2</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testIsAdmin3()'><b>testIsAdmin3</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testIsAdmin4()'><b>testIsAdmin4</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testIsAdmin5()'><b>testIsAdmin5</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testIsAdmin6()'><b>testIsAdmin6</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testSetAdmin1()'><b>testSetAdmin1</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testSetAdmin2()'><b>testSetAdmin2</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testSetAdmin3()'><b>testSetAdmin3</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testSetAdmin4()'><b>testSetAdmin4</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testSetAdmin5()'><b>testSetAdmin5</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testSetAvatar1()'><b>testSetAvatar1</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testSetAvatar2()'><b>testSetAvatar2</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testSetAvatar3()'><b>testSetAvatar3</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testSetAvatar4()'><b>testSetAvatar4</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testSetAvatar5()'><b>testSetAvatar5</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser1()'><b>testVerifyUser1</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser10()'><b>testVerifyUser10</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser11()'><b>testVerifyUser11</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser12()'><b>testVerifyUser12</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser13()'><b>testVerifyUser13</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser14()'><b>testVerifyUser14</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser15()'><b>testVerifyUser15</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser16()'><b>testVerifyUser16</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser17()'><b>testVerifyUser17</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser18()'><b>testVerifyUser18</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser2()'><b>testVerifyUser2</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser3()'><b>testVerifyUser3</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser4()'><b>testVerifyUser4</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser5()'><b>testVerifyUser5</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser6()'><b>testVerifyUser6</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser7()'><b>testVerifyUser7</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser8()'><b>testVerifyUser8</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+<tr>
+<td title='accountmanager.AccountNGTest.testVerifyUser9()'><b>testVerifyUser9</b><br>Test class: accountmanager.AccountNGTest</td>
+<td></td>
+<td>0</td>
+<td>accountmanager.AccountNGTest@6fd02e5</td></tr>
+</table><p>
+</body>
+</html>

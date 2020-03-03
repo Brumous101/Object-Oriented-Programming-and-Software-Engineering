@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="69" passed="69" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-01T03:32:16Z" name="AccountManager" finished-at="2020-03-01T03:32:16Z" duration-ms="112">
+    <groups>
+    </groups>
+    <test started-at="2020-03-01T03:32:16Z" name="TestNG tests" finished-at="2020-03-01T03:32:16Z" duration-ms="112">
+      <class name="accountmanager.AccountNGTest">
+        <test-method signature="testForAddUser12()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser12" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser12 -->
+        <test-method signature="testForAddUser3()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser3" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser3 -->
+        <test-method signature="testGetAvatar4()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetAvatar4" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAvatar4 -->
+        <test-method signature="testForAddUser1()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser1" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser1 -->
+        <test-method signature="testGetAvatar2()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetAvatar2" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAvatar2 -->
+        <test-method signature="testGetAvatar1()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetAvatar1" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAvatar1 -->
+        <test-method signature="testForAddUser4()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser4" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser4 -->
+        <test-method signature="testGetEmail2()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetEmail2" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmail2 -->
+        <test-method signature="testGetEmail3()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetEmail3" finished-at="2020-02-29T22:32:16Z" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmail3 -->
+        <test-method signature="testGetAvatar5()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetAvatar5" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAvatar5 -->
+        <test-method signature="testForAddUser7()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser7" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser7 -->
+        <test-method signature="testForAddUser9()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser9" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser9 -->
+        <test-method signature="testForAddUser11()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser11" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser11 -->
+        <test-method signature="testForAddUser5()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser5" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser5 -->
+        <test-method signature="testForAddUser2()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser2" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser2 -->
+        <test-method signature="testGetAvatar3()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetAvatar3" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAvatar3 -->
+        <test-method signature="testForAddUser8()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser8" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser8 -->
+        <test-method signature="testGetEmail1()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetEmail1" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmail1 -->
+        <test-method signature="testForAddUser6()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser6" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser6 -->
+        <test-method signature="testForAddUser10()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testForAddUser10" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAddUser10 -->
+        <test-method signature="testGetAvatar6()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetAvatar6" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAvatar6 -->
+        <test-method signature="testGetPassword3()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetPassword3" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPassword3 -->
+        <test-method signature="testGetEmail4()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetEmail4" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmail4 -->
+        <test-method signature="testGetPassword4()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetPassword4" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPassword4 -->
+        <test-method signature="testSetAdmin1()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testSetAdmin1" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAdmin1 -->
+        <test-method signature="testGetPassword2()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetPassword2" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPassword2 -->
+        <test-method signature="testGetEmail5()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetEmail5" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmail5 -->
+        <test-method signature="testGetUserID2()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetUserID2" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserID2 -->
+        <test-method signature="testIsAdmin1()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testIsAdmin1" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAdmin1 -->
+        <test-method signature="testIsAdmin4()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testIsAdmin4" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAdmin4 -->
+        <test-method signature="testIsAdmin2()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testIsAdmin2" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAdmin2 -->
+        <test-method signature="testGetPassword1()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetPassword1" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPassword1 -->
+        <test-method signature="testGetUserID1()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetUserID1" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserID1 -->
+        <test-method signature="testGetEmail6()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetEmail6" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmail6 -->
+        <test-method signature="testGetUserID3()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetUserID3" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserID3 -->
+        <test-method signature="testGetPassword5()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetPassword5" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPassword5 -->
+        <test-method signature="testGetEmail7()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetEmail7" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmail7 -->
+        <test-method signature="testIsAdmin3()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testIsAdmin3" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAdmin3 -->
+        <test-method signature="testGetEmail8()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetEmail8" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmail8 -->
+        <test-method signature="testIsAdmin5()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testIsAdmin5" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAdmin5 -->
+        <test-method signature="testGetEmail9()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testGetEmail9" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmail9 -->
+        <test-method signature="testIsAdmin6()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testIsAdmin6" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsAdmin6 -->
+        <test-method signature="testVerifyUser16()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser16" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser16 -->
+        <test-method signature="testVerifyUser11()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser11" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser11 -->
+        <test-method signature="testSetAvatar5()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testSetAvatar5" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAvatar5 -->
+        <test-method signature="testVerifyUser4()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser4" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser4 -->
+        <test-method signature="testVerifyUser14()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser14" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser14 -->
+        <test-method signature="testVerifyUser12()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser12" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser12 -->
+        <test-method signature="testVerifyUser1()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser1" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser1 -->
+        <test-method signature="testVerifyUser10()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser10" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser10 -->
+        <test-method signature="testSetAdmin3()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testSetAdmin3" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAdmin3 -->
+        <test-method signature="testVerifyUser17()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser17" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser17 -->
+        <test-method signature="testSetAvatar1()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testSetAvatar1" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAvatar1 -->
+        <test-method signature="testSetAdmin5()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testSetAdmin5" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAdmin5 -->
+        <test-method signature="testVerifyUser3()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser3" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser3 -->
+        <test-method signature="testSetAvatar4()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testSetAvatar4" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAvatar4 -->
+        <test-method signature="testSetAdmin4()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testSetAdmin4" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAdmin4 -->
+        <test-method signature="testSetAvatar3()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testSetAvatar3" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAvatar3 -->
+        <test-method signature="testVerifyUser2()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser2" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser2 -->
+        <test-method signature="testVerifyUser18()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser18" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser18 -->
+        <test-method signature="testSetAdmin2()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testSetAdmin2" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAdmin2 -->
+        <test-method signature="testSetAvatar2()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testSetAvatar2" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetAvatar2 -->
+        <test-method signature="testVerifyUser13()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser13" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser13 -->
+        <test-method signature="testVerifyUser15()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser15" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser15 -->
+        <test-method signature="testVerifyUser5()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser5" finished-at="2020-02-29T22:32:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser5 -->
+        <test-method signature="testVerifyUser8()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser8" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser8 -->
+        <test-method signature="testVerifyUser9()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser9" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser9 -->
+        <test-method signature="testVerifyUser7()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser7" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser7 -->
+        <test-method signature="testVerifyUser6()[pri:0, instance:accountmanager.AccountNGTest@6fd02e5]" started-at="2020-02-29T22:32:16Z" name="testVerifyUser6" finished-at="2020-02-29T22:32:16Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUser6 -->
+      </class> <!-- accountmanager.AccountNGTest -->
+    </test> <!-- TestNG tests -->
+  </suite> <!-- AccountManager -->
+</testng-results>
